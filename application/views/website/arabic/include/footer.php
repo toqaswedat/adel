@@ -1,4 +1,22 @@
-﻿ <!-- Footer Section Start -->
+﻿<section class="row-6 pt-5 pb-5">
+<h3 class="text-center custom-control">اشترك معنا</h3>
+  <div class="row " >
+    <div class="col-sm-12" >    
+      <p class="text-center ">ادخل بريدك الالكتروني لتحصل علي كل جديد</p>
+    </div>
+    <div class="text-center custom-control d-flex align-items-center justify-content-center col-sm-12"  >
+    <div class="input-group ">
+  <input class="form-control" aria-label="With textarea"></input>
+  <div class="input-group-prepend">
+    <span class="input-group-text bg-dark font-weight-bold text-light">اشترك</span>
+  </div>
+</div>
+</div>
+  </div>
+</section>
+
+
+<!-- Footer Section Start -->
 <footer>
 
   <section class="footer-Content">
@@ -64,5 +82,28 @@
       <p>جميع الحقوق محفوظة <span class="text-warning" >@بالعدل</span> - 2022</p>
     </div>
   </section>
+  <script>
+        $(document).ready(function () {
+                $(".gallery-carousel").owlCarousel({
+                    loop: true,
+                    autoplay: true,
+                    margin: 10,
+                    dots: true,
+                    nav: false,
+                    center: true,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        600: {
+                            items: 1
+                        },
+                        1000: {
+                            items: 3
+                        }
+                    }
+                });
+            });
+  </script>
 </footer>
 </body>

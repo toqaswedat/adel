@@ -46,6 +46,7 @@
     <!-- Main Styles -->
 
     <link rel="stylesheet" href="<?=base_url('assets/website/arabic/');?>css/main.css" type="text/css">
+    <link rel="stylesheet" href="<?=base_url('assets/website/arabic/');?>css/customCSS.css" type="text/css">
 
     <!-- Slicknav js -->
 

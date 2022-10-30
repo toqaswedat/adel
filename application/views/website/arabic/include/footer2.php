@@ -693,7 +693,28 @@ Students and Graduates wishing to apply  to train and serve as Trainees and  Par
     <script  src="<?=base_url('assets/website/arabic/');?>plugins/light-slider/src/js/lightslider.js" type="text/javascript"></script>
 
     <script>
-    
+    $(document).ready(function () {
+                $(".gallery-carousel").owlCarousel({
+                    loop: true,
+                    autoplay: true,
+                    margin: 10,
+                    dots: true,
+                    nav: false,
+                    center: true,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        600: {
+                            items: 1
+                        },
+                        1000: {
+                            items: 3
+                        }
+                    }
+                });
+            });
+
      $(document).ready(function(){
   
   $(".read-more").click(function () {
