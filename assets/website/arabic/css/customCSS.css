@@ -1,3 +1,8 @@
+header ,footer,body {
+    font-family: Cairo !important;
+
+}
+
 .uploudApp{
     padding-top: 21em;
     padding-left: 10em;
@@ -8,10 +13,10 @@
     padding-left: 12em !important;
 }
 
-/* .serverHome div div{
-    border: 2px solid red;
-
-} */
+.footerMenu1{
+    line-height: 0.5 !important;
+    padding-top: 2em ;
+}
 @media only screen and (max-width: 333px) {
     .interestedYou div{
         padding-left: 10em !important; 

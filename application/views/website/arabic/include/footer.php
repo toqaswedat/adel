@@ -35,7 +35,7 @@
 
       <div class="col-2">
         <h4>روابط قد تهمك</h4>
-        <ul class="menu lh-1 ">
+        <ul class="menu lh-1 footerMenu1">
         <li class="col pr-0"><a href="<?=base_url();?>arabic/Pages/about_us/">عن بالعدل</a></li>
         <li class="col pr-0"><a href="<?=base_url();?>arabic/Pages/contact_us/">محامون بالعدل </a></li>
         <li class="col pr-0"><a href="<?=base_url();?>arabic/Pages/contact_us/">التشهير السيبراني </a></li>
@@ -47,7 +47,7 @@
 
       <div class="col-2">
         <h4>اقرأ أيضاً</h4>
-        <ul class="menu ">
+        <ul class="menu footerMenu1 ">
         <li class="col pr-0"><a href="<?=base_url();?>arabic/Pages/about_us/">أخبارنا </a></li>
         <li class="col pr-0"><a href="<?=base_url();?>arabic/Pages/contact_us/">المقالات  </a></li>
         <li class="col pr-0"><a href="<?=base_url();?>arabic/Pages/contact_us/">وثائق مفيدة </a></li>
@@ -82,28 +82,5 @@
       <p>جميع الحقوق محفوظة <span class="text-warning" >@بالعدل</span> - 2022</p>
     </div>
   </section>
-  <script>
-        $(document).ready(function () {
-                $(".gallery-carousel").owlCarousel({
-                    loop: true,
-                    autoplay: true,
-                    margin: 10,
-                    dots: true,
-                    nav: false,
-                    center: true,
-                    responsive: {
-                        0: {
-                            items: 1
-                        },
-                        600: {
-                            items: 1
-                        },
-                        1000: {
-                            items: 3
-                        }
-                    }
-                });
-            });
-  </script>
 </footer>
 </body>

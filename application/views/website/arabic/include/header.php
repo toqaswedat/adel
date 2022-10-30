@@ -83,7 +83,7 @@
   <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
     <ul class="navbar-nav justify-content-around col-5">
       <li>
-        <a class=" text-light" href="<?=base_url('arabic/');?>"> <span class="border border-warning p-2">الصفحةالـ</span>رئيسية</a>
+        <a class=" text-light" href="<?=base_url('arabic/');?>"> <span class="border border-warning p-2">الصفحة ال</span>رئيسية</a>
       </li>
       <li>
         <a class="text-light" href="<?=base_url('arabic/');?>">عن بالعدل</a>
