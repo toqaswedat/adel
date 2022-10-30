@@ -4209,7 +4209,7 @@ span.app-store-btn {
 	background:url(../img/bg/app-down-top.png) top left repeat-x;
 }
 .home-section-top {
-	background:url(../imag/bg/background.svg) top left repeat-x;
+	background:url(../imag/bg/background.svg)  repeat-y;
 }
 .parallex .section-title {
 	color: #fff;

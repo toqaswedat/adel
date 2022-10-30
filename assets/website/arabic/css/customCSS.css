@@ -1,0 +1,34 @@
+.uploudApp{
+    padding-top: 21em;
+    padding-left: 10em;
+}
+
+.planHome{
+    padding-right: 12em !important;
+    padding-left: 12em !important;
+}
+
+/* .serverHome div div{
+    border: 2px solid red;
+
+} */
+@media only screen and (max-width: 333px) {
+    .interestedYou div{
+        padding-left: 10em !important; 
+        padding-right: 10em !important;
+        /* border: 2px solid red; */
+    }
+
+        .serverHome{
+        border: 2px solid red;
+
+    }
+}
+
+
+@media only screen and (max-width: 575) {
+    .serverHome{
+        border: 2px solid red;
+
+    }
+}
